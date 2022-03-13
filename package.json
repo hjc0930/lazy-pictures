@@ -1,0 +1,36 @@
+{
+  "name": "lazy-pictures",
+  "version": "0.0.1",
+  "description": "React image loading component",
+  "files": ["lib"],
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "license": "MIT",
+  "main": "./lib/lazy-pictures.umd.js",
+  "module": "./lib/lazy-pictures.es.js",
+  "types": "./lib/lazyPictures.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/lazy-pictures.es.js",
+      "require": "./lib/lazy-pictures.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc -p tsconfig.build.json",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  }
+}
