@@ -1,5 +1,5 @@
 {
-  "name": "lazy-pictures",
+  "name": "react-lazy-img",
   "version": "0.0.5",
   "description": "React image loading component",
   "keywords": [
