@@ -2,6 +2,14 @@
   "name": "lazy-pictures",
   "version": "0.0.3",
   "description": "React image loading component",
+  "keywords": [
+    "lazy",
+    "lazy-pictures",
+    "pictures",
+    "react-component",
+    "react",
+    "lazyload"
+  ],
   "files": [
     "lib"
   ],
