@@ -1,7 +1,5 @@
 import Loader from './components/LazyPictures';
 import aPng from './assets/1.jpg';
-import bPng from './assets/2.jpg';
-import cPng from './assets/3.jpg';
 
 export default () => {
   return (

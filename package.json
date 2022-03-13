@@ -7,6 +7,7 @@
     "react": ">=17.0.0"
   },
   "license": "MIT",
+  "repository": "https://github.com/hjc0930/lazy-pictures",
   "main": "./lib/lazy-pictures.umd.js",
   "module": "./lib/lazy-pictures.es.js",
   "types": "./lib/lazyPictures.d.ts",
