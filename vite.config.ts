@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/components/LazyPictures.tsx"),
-      name: "react-lazy-img",
-      fileName: (format) => `react-lazy-img.${format}.js`,
+      name: "lazy-pictures",
+      fileName: (format) => `lazy-pictures.${format}.js`,
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
