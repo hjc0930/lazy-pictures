@@ -30,6 +30,7 @@
     }
   },
   "scripts": {
+    "publish:beta": "npm run build && npm version prerelease --preid=beta && npm publish",
     "build": "npm run clean && npm run tsc && vite build",
     "tsc:es": "tsc --declarationDir es",
     "tsc:lib": "tsc --declarationDir lib",
